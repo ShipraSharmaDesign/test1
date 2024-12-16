@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipra Sharma - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .skills-section, .projects-section, .contact-section {
+            padding: 50px 0;
+        }
+        .projects-section .card {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .projects-section .card:hover {
+            transform: scale(1.05);
+        }
+        .modal-body img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #f8f9fa;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">SHIPRA SHARMA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="c:\Users\shipr\Downloads\portfolio website main file\2\images\poster design.jpg" class="img-fluid" alt="Project Image 1">
+            </div>
+            <div class="col-md-6">
+                <img src="c:\Users\shipr\Downloads\portfolio website main file\2\images\ccoyyy baf.jpg" class="img-fluid" alt="Project Image 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="text-center">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me Section</title>
+        <style>
+          /* General Reset */
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+      
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+          }
+      
+          /* General Section Styling */
+          .about-me {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 20px;
+            background-color: #fff; /* Optional */
+          }
+      
+          .about-container {
+            display: flex;
+            max-width: 1200px;
+            gap: 30px;
+            align-items: center;
+          }
+      
+          /* Image Styling */
+          .image-container img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+          }
+      
+          /* Text Styling */
+          .text-container {
+            flex: 1;
+            text-align: left;
+          }
+      
+          .text-container h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #000;
+          }
+      
+          .text-container p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+          }
+      
+          /* Responsive Design */
+          @media (max-width: 768px) {
+            .about-container {
+              flex-direction: column;
+              text-align: center;
+            }
+      
+            .image-container img {
+              width: 200px;
+              height: 200px;
+              margin-bottom: 20px;
+            }
+      
+            .text-container h2 {
+              font-size: 1.8rem;
+            }
+          }
+        </style>
+      </head>
+      <body>
+        <!-- About Me Section -->
+        <section class="about-me">
+          <div class="about-container">
+            <!-- Image Container -->
+            <div class="image-container">
+              <img src="c:\Users\shipr\Downloads\progilr rese.jpg" alt="Shipra Sharma">
+            </div>
+            <!-- Text Container -->
+            <div class="text-container">
+              <h2>GET TO KNOW SHIPRA</h2>
+              <p>
+                Hello! I'm Shipra Sharma, a graphic designer with a passion for blending creativity with communication. 
+                My journey into the world of design has been fueled by my love for music and the vibrant aesthetics of 
+                80s and 90s Hollywood. These influences inspire my work, bringing a unique and nostalgic touch to modern 
+                design principles.
+              </p>
+            </div>
+          </div>
+        </section>
+      
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="section-title">SKILLS</h4>
+                    <p>Book Design</p>
+                    <p>Album Design</p>
+                    <p>Packaging</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="section-title">SOFTWARES</h4>
+                    <p>Photoshop</p>
+                    <p>Illustrator</p>
+                    <p>InDesign</p>
+                    <p>Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section text-center">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects with Pop-ups</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+          /* General Reset */
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+      
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+          }
+      
+          /* Section Styling */
+          .projects {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+          }
+      
+          .projects h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #000;
+          }
+      
+          /* Project Grid */
+          .project {
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+          }
+      
+          .project img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+          }
+      
+          .project:hover img {
+            transform: scale(1.05);
+          }
+      
+          .project-title {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+          }
+      
+          /* Modal Styling */
+          .modal-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+          }
+      
+          .modal img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+          }
+      
+          .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.5rem;
+            color: #333;
+            cursor: pointer;
+          }
+      
+          /* Responsive Modal */
+          @media (max-width: 768px) {
+            .modal-content {
+              width: 95%;
+            }
+          }
+        </style>
+      </head>
+      <body>
+        <!-- Projects Section -->
+        <section class="projects">
+          <h2>My Projects</h2>
+          <div class="container">
+            <div class="row">
+              <!-- Project 1 -->
+              <div class="col-lg-4 col-md-6 col-12 project" data-bs-toggle="modal" data-bs-target="#modal1">
+                <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\eda1828c100b7f8850eda5cb438693fc (1).jpg" alt="Project 1">
+                <div class="project-title">Branding - Coyy Sake</div>
+              </div>
+              <!-- Project 2 -->
+              <div class="col-lg-4 col-md-6 col-12 project" data-bs-toggle="modal" data-bs-target="#modal2">
+                <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\plum wine\Untitled design (11).jpg" alt="Project 2">
+                <div class="project-title">Packaging - Aozan Green Plum Wine</div>
+              </div>
+              <!-- Project 3 -->
+              <div class="col-lg-4 col-md-6 col-12 project" data-bs-toggle="modal" data-bs-target="#modal3">
+                <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\Untitled design (7).jpg" alt="Project 3">
+                <div class="project-title">Book Redesign - The Red Book by Carl Jung</div>
+              </div>
+              <!-- Project 4 -->
+              <div class="col-lg-4 col-md-6 col-12 project" data-bs-toggle="modal" data-bs-target="#modal4">
+                <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\roslyn album\57947 (1).jpg" alt="Project 4">
+                <div class="project-title">Album Redesign - Roslyn by Bon Iver</div>
+              </div>
+              <!-- Project 5 -->
+              <div class="col-lg-4 col-md-6 col-12 project" data-bs-toggle="modal" data-bs-target="#modal5">
+                <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\Untitled design (10).jpg" alt="Project 5">
+                <div class="project-title">Branding - Twilight Cafe</div>
+              </div>
+              <!-- Project 6 -->
+              <div class="col-lg-4 col-md-6 col-12 project" data-bs-toggle="modal" data-bs-target="#modal6">
+                <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\06-Recovered.jpg" alt="Project 6">
+                <div class="project-title">Book Design - Cookbook</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Modals -->
+        <div id="modal1" class="modal fade" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h3>Coyy Sake</h3>
+              <p>The Branding and packaging design for Coyy's premium non-alcoholic Eternal Blossom Sake features a harmonious blend of traditional 
+                Japanese aesthetics and modern artistry. Dominated by a serene, greenish-blue backdrop, the label showcases two vibrant koi fish swimming gracefully, 
+                symbolizing perseverance and good fortune. The intricate water patterns and detailed depiction of the koi add a dynamic, fluid element, enhancing the 
+                sense of elegance and tranquility. The minimalist yet bold typography emphasizes the brand's name, creating a striking contrast against the artwork. 
+                Overall, the design encapsulates Coyy's dedication to tradition, craftsmanship, and the refined beauty of Japanese culture.</p>
+             
+              <span class="close-btn" data-bs-dismiss="modal">&times;</span>
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\eda1828c100b7f8850eda5cb438693fc (1).jpg" alt="Project 1">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\Screenshot 2024-06-25 181121 (1).png" alt="Project 1">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\Screenshot 2024-06-25 181136.png" alt="Project 1">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\1.jpg" alt="Project 1">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\2.jpg" alt="Project 1">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\3.jpg" alt="Project 1">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\coyy images\ccoyyy baf (1).jpg" alt="Project 1">
+              
+            </div>
+          </div>
+        </div>
+      
+        <div id="modal2" class="modal fade" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h3>Aozan Green Plum Wine</h3>
+              <p>The thought process behind Aozan Green Plum Wine's packaging design focuses on emphasizing the natural and authentic essence of the product. 
+                The use of green plums and blossoming branches in the illustration conveys freshness and a connection to nature, highlighting the key ingredient. 
+                This choice reflects the traditional craftsmanship and natural ingredients used in the wine.
+
+                The elegant, hand-drawn style of the artwork paired with soft, earthy tones creates a sophisticated and inviting appearance. 
+                The bold typography ensures brand visibility while maintaining a harmonious balance with the delicate illustrations, representing the refined 
+                and high-quality nature of Aozan Green Plum Wine</p>
+              <span class="close-btn" data-bs-dismiss="modal">&times;</span>
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\plum wine\final mockup (1).jpg" alt="Project 2">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\plum wine\Untitled design (11).jpg" alt="Project 2">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\plum wine\Untitled_design__3_-removebg-preview_gsdgsd-removebg-preview (1).png" alt="Project 2">
+             
+            </div>
+          </div>
+        </div>
+      
+        <div id="modal3" class="modal fade" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h3>Book Redesign - The Red Book by Carl Jung</h3>
+              <p>For the redesign of "The Red Book" by C.G. Jung, I utilized intricate mandala patterns to reflect Jung's exploration of the psyche and the book’s deep, 
+                introspective nature. The rich, dark color palette with gold accents conveys a sense of mystery and sophistication, while the detailed,
+                 symmetrical design symbolizes the inner workings of the mind. The bold, serif typography adds an authoritative and classic touch, ensuring readability. 
+                 The composition centers on the elaborate mandala, drawing the viewer's eye to the title and creating a visually striking cover that embodies the profound and 
+                 analytical essence of Jung’s work</p>
+              <span class="close-btn" data-bs-dismiss="modal">&times;</span>
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\Untitled design (7).jpg" alt="Project 3">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\resized final cover.jpg" alt="Project 3">
+             
+            </div>
+          </div>
+        </div>
+      
+        <div id="modal4" class="modal fade" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h3>Album Redesign - Roslyn by Bon Iver</h3>
+              <p>The redesign of the "Roslyn" cover by Bon Iver and St. Vincent features a minimalist and moody aesthetic to reflect the haunting and atmospheric 
+                nature of the song. The dark background sets a somber tone, while the abstract brushstroke adds a sense of fluidity and emotion. The serif typography 
+                used for "Roslyn" evokes a sense of timelessness and elegance, complementing the melancholic theme of the track. The subtle inclusion of the "Twilight" 
+                branding ties it back to the "New Moon" soundtrack, maintaining its connection to the original context. Overall, the design aims to visually capture the 
+                song's introspective and ethereal qualities.</p>
+              <span class="close-btn" data-bs-dismiss="modal">&times;</span>
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\roslyn album\57947 (1).jpg" alt="Project 4">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\roslyn album\Roslyn cover redisgn (1).jpg" alt="Project 4">
+             
+            </div>
+          </div>
+        </div>
+      
+        <div id="modal5" class="modal fade" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h3>Twilight Cafe</h3>
+              <p>The branding for Twilight Cafe seamlessly integrates the cozy ambiance of a cafe with the intellectual charm of a bookstore.
+                 Inspired by the twilight hours, the design uses a rich and muted color palette, featuring deep blues, warm browns, and soft beiges, 
+                 to evoke a sense of warmth and comfort. The logo, depicting a steaming coffee cup with book spines, encapsulates the dual essence of the 
+                 cafe and bookstore.</p>
+              <span class="close-btn" data-bs-dismiss="modal">&times;</span>
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\Untitled design (10).jpg" alt="Project 5">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\logo  blue (1).png" alt="Project 5">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\jinuinh (1).png" alt="Project 5">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\CityWindowMockup (1).jpg" alt="Project 5">
+              <img src="c:\Users\shipr\Downloads\poster design.jpg" alt="Project 5">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\menu mockup (1).jpg" alt="Project 5">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\Portfolio - Shipra Sharma.jpg" alt="Project 5">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\twilight cafe imges\Free Coffee Cups Mockupvvvv (1).jpg" alt="Project 5">
+             
+            </div>
+          </div>
+        </div>
+      
+        <div id="modal6" class="modal fade" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h3>Actually Good, Girl Dinner - Cookbook</h3>
+              <p>Actually Good, Girl Dinner reimagines the playful trend of “girl dinner” by transforming it from a random plate of snacks into a collection of 
+                globally inspired comfort meals that are both simple and satisfying. This cookbook features  easy-to-make recipes from around the world, each designed 
+                for minimal effort and maximum flavor. It’s perfect for busy college students, solo diners, or anyone who craves a low-maintenance meal that still feels 
+                indulgent. By celebrating dishes rooted in comfort and culture, this book proves that you don’t need fancy techniques or hard-to-find ingredients to 
+                create an actually good dinner.</p>
+              <span class="close-btn" data-bs-dismiss="modal">&times;</span>
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\06-Recovered.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 1.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 2.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 3.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 4.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 5.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 6.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 7.jpg" alt="Project 6">
+              <img src="c:\Users\shipr\Desktop\University\Year 2\Fundementals of digital prototyping\portfolio website\cookbook\page 8.jpg" alt="Project 6">
+              
+            </div>
+          </div>
+        </div>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-light text-center">
+      <div class="container">
+          <h2 class="section-title">GET IN TOUCH</h2>
+          <p>Email: shipra.sharma.design@gmail.com</p>
+          <p>Phone: 8369751578</p>
+          <button class="btn btn-dark">LET’S WORK TOGETHER</button>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+      <p>© 2024 Shipra Sharma. All rights reserved.</p>
+  </div>
